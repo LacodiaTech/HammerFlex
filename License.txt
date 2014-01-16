@@ -1,7 +1,7 @@
 ﻿<div class="License">
    <h3>License</h3>
    <p class="Owner">
-       <a href="http://www.christoc.com">Christoc.com</a></br>
+       <a href="http://www.douglascountyshopping.com">Mark Garcia, Lacodia Tech</a></br>
        Copyright (c) 2014</br>
    </p>
   <p>
@@ -19,6 +19,7 @@
   </p>
 
   <div>
+	<p>Origninal HammerFlex Skin https://github.com/ChrisHammond/HammerFlex under Apache License v2.0</p>
 	<p>Bootstrap files from http://getbootstrap.com/ under Apache License v2.0</p>
 	<p>Bootstrap style from http://bootswatch.com/cerulean/ under Apache License v2.0</p>
 	<p>BlueImp Gallery from https://github.com/blueimp/Bootstrap-Image-Gallery under MIT License</p>

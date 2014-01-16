@@ -1,0 +1,68 @@
+﻿.ConHeaderPane .Normal {
+    color: #808080
+}
+/* Title_h1 */
+.ConHeaderPane h1 {
+    color: #fff;
+	display: block;
+	margin-bottom: 5px;
+    margin-top: 5px;
+} 
+
+/* Title_h2 */
+.ConHeaderPane h2 {
+    color: #fff;
+	display: block;
+	margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* Title_h3 */
+.ConHeaderPane h3 {
+    color: #fff;
+	display: block;
+	margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* Title_h4 */
+.ConHeaderPane h4 {
+    color: #fff;
+	display: block;
+	margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/*Main Container*/
+.ConMainPane{
+    background-color: #fff;
+    padding: 4px;
+}
+.ConMainHead {
+    border-bottom-color: #d0d0d0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+/*Section1 Container*/
+.ConSectionPane {
+    background-color: #fff;
+    padding: 4px;
+}
+.ConSectionHead {
+    font-size: 18px;
+    font-weight: bolder;
+    text-shadow: 2px 1px 1px rgba(150, 150, 150, 1);
+    border-bottom-color: #d0d0d0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+/* All Containers*/
+.ConWrap {
+    background-color: #dfebf2;
+    border-color: #d0d0d0;
+    border-style: solid;
+    border-width: 1px;
+    padding: 4px;
+    margin: 4px;
+}

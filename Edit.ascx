@@ -1,6 +1,5 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Edit.ascx.cs" Inherits="Christoc.Skins.HammerFlex.Edit" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Edit.ascx.cs" Inherits="Christoc.Skins.LTFlex.Edit" %>
 <%@ Register TagPrefix="dnn" TagName="LOGO" Src="~/Admin/Skins/Logo.ascx" %>
-<%@ Register TagPrefix="dnn" TagName="SEARCH" Src="~/Admin/Skins/Search.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="USER" Src="~/Admin/Skins/User.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="LOGIN" Src="~/Admin/Skins/Login.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="PRIVACY" Src="~/Admin/Skins/Privacy.ascx" %>
@@ -18,56 +17,55 @@
 <dnn:DnnCssInclude ID="bootStrapCSS" runat="server" FilePath="css/bootstrap.css" PathNameAlias="SkinPath" />
 <dnn:DnnJsInclude ID="bluImpJS" runat="server" FilePath="js/jquery.blueimp-gallery.min.js" PathNameAlias="SkinPath" />
 
+<script>$(function () {
+    if ($('form').hasClass('showControlBar')) $('.navbar-fixed-top').addClass('admin');
+});
+</script>
 
-<div class="navbar navbar-default" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="navbar-brand">
-                <dnn:LOGO runat="server" id="dnnLOGO" />
+<div class="Main">
+    <div class="navbar-default" role="navigation">
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-width">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <dnn:MENU MenuStyle="BootStrapNav" runat="server"></dnn:MENU>
+                    <div id="HeaderContent">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <dnn:LOGIN ID="dnnLogin" CssClass="LoginLink" runat="server" LegacyMode="false" />
+                            </li>
+                            <li>
+                                <dnn:USER ID="dnnUser" runat="server" LegacyMode="false" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--/.nav-collapse -->
             </div>
         </div>
-        <div class="navbar-collapse collapse">
-            <dnn:MENU MenuStyle="BootStrapNav" runat="server"></dnn:MENU>
+        <div class="container">
+            <div id="navbar-header-top" class="row">
+                <div id="dnnLogo" class="col-md-3">
+                    <div class="navbar-brand">
+                        <dnn:LOGO runat="server" ID="dnnLOGO" />
+                    </div>
+                </div>
+                <div id="HeaderPane" runat="server" class="col-md-9" />
 
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Search<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <div class="searchBox">
-                                <dnn:Search id="dnnSearch" runat="server" showsite="false" showweb="false" />
-                            </div>
-                        </li>
-                    </ul>
-
-                </li>
-                <li>
-                    <dnn:LOGIN ID="dnnLogin" CssClass="LoginLink" runat="server" LegacyMode="false" />
-                </li>
-                <li>
-                    <dnn:USER ID="dnnUser" runat="server" LegacyMode="false" />
-                </li>
-            </ul>
+            </div>
         </div>
-        <!--/.nav-collapse -->
     </div>
-</div>
-
-<div id="CarouselPane" runat="server" class="row" />
-
-<div class="container">
-    <!--/Logo-->
-
+    <div class="container" id="Sheet">      
     <div id="TopContent" class="row">
         <div id="TopPane" runat="server" class="col-md-12" />
     </div>
-
     <div id="Content" class="row">
         <div id="ContentPane" runat="server" class="col-md-12" />
     </div>
@@ -99,18 +97,15 @@
                 <dnn:terms id="dnnTerms" runat="server" />
                 <dnn:privacy id="dnnPrivacy" runat="server" />
             </div>
-            <a href="http://www.christoc.com/projects/hammerflex">Design: HammerFlex DNN Skin by Christoc.com</a>
+            <a href="http://www.DouglasCountyShopping.com">Website Design, Mark Garcia, Douglas County Shopping</a>
         </div>
     </div>
 </div>
 
-<!-- gallery and carousel controls, hidden by default -->
-<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-    <div class="slides"></div>
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-</div>
+
+
+
+
+
+
+

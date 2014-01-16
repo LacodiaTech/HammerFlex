@@ -59,7 +59,6 @@
       <SourceInclude Include="**\*.ascx" />
       <SourceInclude Include="**\*.asmx" />
       <SourceInclude Include="**\*.css" />
-
       <SourceInclude Include="**\*.xsl" />
       <SourceInclude Include="**\*.html" />
       <SourceInclude Include="**\*.htm" />

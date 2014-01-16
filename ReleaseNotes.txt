@@ -1,11 +1,20 @@
-﻿<h3>HammerFlex</h3>
-	Christoc.com <br />
-	<a href="mailto:skins@christoc.com">skins@christoc.com</a><br />
-	<a href=http://www.christoc.com>http://www.christoc.com</a><br />
+﻿<h3>LTFlex</h3>
+	Mark Garcia <br />
+	<a href="mailto:mgarcia@lacodiatech.com">mgarcia@lacodiatech.com</a><br />
+	<a href=http://www.douglascountyshopping.com>http://www.douglascountyshopping.com</a><br />
 <hr/>
-	<h3>About the HammerFlex</h3>
-	<strong>Version 00.01.00</strong><br />
-	Initial release of the skin using Bootstrap 3 and DNN 7.1	
+	<h3>About the LTFlex</h3>
+	<strong>Version 00.01.02</strong><br />
+	<p>This is a fork of Chris Hammond's excellent HammerFlex skin built off of Bootstrap 3. LTFlex adds the following:
+   <ul>
+	  <li>Working Carousel with placehol.it images on Home.ascx.</li>
+      <li>Inside.ascx skin page without the Carousel.</li>
+	  <li>Changes the navbar to a fixed top style.</li>
+	  <li>Adds some javascript to the Home.ascx page so that the fixed top navbar will not interfere with the admin control panel.</li>
+	  <li>Modifies and adds several containers.</li>
+   </ul>
+   </p>	
+   <p>Origninal HammerFlex Skin https://github.com/ChrisHammond/HammerFlex under Apache License v2.0</p>
 	<h4>Bug Fixes</h4>
 	<ul>
 			<li>None, first release</li>

@@ -16,7 +16,7 @@ using DotNetNuke.Framework;
 using DotNetNuke.Web.Client.ClientResourceManagement;
 using DotNetNuke.Web.Client;
 
-namespace Christoc.Skins.HammerFlex
+namespace Christoc.Skins.LTFlex
 {
     public class SkinBase : DotNetNuke.UI.Skins.Skin
     {
@@ -28,8 +28,8 @@ namespace Christoc.Skins.HammerFlex
         private void RegisterJavaScript()
         {
             jQuery.RequestRegistration();
-            //ClientResourceManager.RegisterScript(Page, "/portals/_default/skins/hammerflex/js/jquery.blueimp-gallery.min.js", FileOrder.Js.jQuery, "DnnFormBottomProvider"); // default priority and provider
-            //ClientResourceManager.RegisterScript(Page, "/portals/_default/skins/hammerflex/js/bootstrap-image-gallery.min.js", FileOrder.Js.jQuery, "DnnFormBottomProvider"); // default priority and provider           
+            //ClientResourceManager.RegisterScript(Page, "/portals/_default/skins/LTFlex/js/jquery.blueimp-gallery.min.js", FileOrder.Js.jQuery, "DnnFormBottomProvider"); // default priority and provider
+            //ClientResourceManager.RegisterScript(Page, "/portals/_default/skins/LTFlex/js/bootstrap-image-gallery.min.js", FileOrder.Js.jQuery, "DnnFormBottomProvider"); // default priority and provider           
             
         }
     }

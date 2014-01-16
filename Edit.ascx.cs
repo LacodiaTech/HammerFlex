@@ -17,7 +17,7 @@ using DotNetNuke.Entities.Modules;
 using DotNetNuke.Entities.Modules.Actions;
 using DotNetNuke.Services.Localization;
 
-namespace Christoc.Skins.HammerFlex
+namespace Christoc.Skins.LTFlex
 {
     /// -----------------------------------------------------------------------------
     /// <summary>
@@ -27,7 +27,7 @@ namespace Christoc.Skins.HammerFlex
     /// 
     /// View may be the only control you have in your project depending on the complexity of your module
     /// 
-    /// Because the control inherits from HammerFlexModuleBase you have access to any custom properties
+    /// Because the control inherits from LTFlexModuleBase you have access to any custom properties
     /// defined there, as well as properties from DNN such as PortalId, ModuleId, TabId, UserId and many more.
     /// 
     /// </summary>

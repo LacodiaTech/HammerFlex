@@ -1,3 +1,20 @@
+body {
+    min-height: 2000px;
+    padding-top: 51px;
+}
+.Main {
+    background: #FFFFFF url('img/page.png') fixed;
+}
+#Sheet {
+    background: rgba(47, 164, 231, 0.10);
+    border: 2px;
+    border-style:solid;
+    border-color: rgba(47, 164, 231, 0.15);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
 .Normal {
     font-size: 14px;
     line-height: 1.428;
@@ -17,6 +34,15 @@
     color: #fff;
 }
 
+.CarouselRow {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.CarouselPanel {
+    margin-left: 0px;
+	margin-right: 0px;
+}
 .navbar-brand {
     padding: 0 !important;
 }
@@ -25,7 +51,7 @@ a.btn-info, a.btn-info:visited,a.btn-primary, a.btn-primary:visited {
     color: #fff;
 }
 
-.searchBox {
+/* .searchBox {
     padding-top: 12px;
 }
 
@@ -35,7 +61,7 @@ a.btn-info, a.btn-info:visited,a.btn-primary, a.btn-primary:visited {
 
 .searchSkinObjectPreview_group {
     display: none;
-}
+} */
 /*override for dnnLabels in the bootstrap */
 .form-group .dnnLabel{text-align:left;width:auto;}
 
@@ -56,6 +82,12 @@ a.btn-info, a.btn-info:visited,a.btn-primary, a.btn-primary:visited {
 /*------------------------------------------------*/
 /* LOGIN */
 /*------------------------------------------------*/
+
+.navbar-width {
+  width: 70% ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
 
 .navbar-right {
     height: 51px;
@@ -427,3 +459,8 @@ body:last-child .blueimp-gallery-playing > .play-pause {
     * + html .blueimp-gallery > .slides > .slide > .slide-content {
         position: relative;
     }
+
+#FooterRow {
+    background-color: #1E1B1A;
+    height: 150px;
+}
