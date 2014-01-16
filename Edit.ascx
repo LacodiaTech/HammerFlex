@@ -24,9 +24,15 @@
 
 <div class="Main">
     <div class="navbar-default" role="navigation">
-        <div class="navbar navbar-fixed-top">
-            <div class="navbar-width">
+        <div class="navbar-width">
+            <div class="navbar navbar-fixed-top">
+                <div class="navbar-collapse collapse">
+                    <div class="navbar-Menu">
+                        <dnn:MENU MenuStyle="BootStrapNav" runat="server"></dnn:MENU>
+                    </div>
+                </div>
                 <div class="navbar-header">
+                    <!--/.nav-collapse -->
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -34,9 +40,16 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div class="navbar-collapse collapse">
-                    <dnn:MENU MenuStyle="BootStrapNav" runat="server"></dnn:MENU>
-                    <div id="HeaderContent">
+            </div>
+            <div class="container">
+                <div id="HeaderLogo" class="row HeaderPane">
+                    <div id="dnnLogo" class="col-md-2">
+                        <div class="navbar-brand">
+                            <dnn:LOGO runat="server" ID="dnnLOGO" />
+                        </div>
+                    </div>
+                    <div id="HeaderPane" runat="server" class="col-md-5" />
+                    <div id="navbar-navigation" class="col=md-5">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
                                 <dnn:LOGIN ID="dnnLogin" CssClass="LoginLink" runat="server" LegacyMode="false" />
@@ -47,18 +60,6 @@
                         </ul>
                     </div>
                 </div>
-                <!--/.nav-collapse -->
-            </div>
-        </div>
-        <div class="container">
-            <div id="navbar-header-top" class="row">
-                <div id="dnnLogo" class="col-md-3">
-                    <div class="navbar-brand">
-                        <dnn:LOGO runat="server" ID="dnnLOGO" />
-                    </div>
-                </div>
-                <div id="HeaderPane" runat="server" class="col-md-9" />
-
             </div>
         </div>
     </div>
@@ -101,6 +102,7 @@
         </div>
     </div>
 </div>
+
 
 
 

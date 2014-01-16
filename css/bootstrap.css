@@ -4729,12 +4729,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-left: -15px;
 }
 
-.container > #navbar-header-top
-{
-    background-color: #1E1B1A;
-
-}
-
 @media (min-width: 768px) {
   .container > .navbar-header,
   .container > .navbar-collapse {

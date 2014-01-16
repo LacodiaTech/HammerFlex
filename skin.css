@@ -1,7 +1,18 @@
 body {
-    min-height: 2000px;
+    min-height: 1000px;
     padding-top: 51px;
 }
+
+.navbar-Menu {
+margin-left:auto;
+ margin-right:auto;
+ width:70%;
+}
+
+.HeaderPane {
+    background-color: #1E1B1A;
+}
+
 .Main {
     background: #FFFFFF url('img/page.png') fixed;
 }
@@ -13,7 +24,6 @@ body {
     margin-top: 8px;
     margin-bottom: 8px;
 }
-
 
 .Normal {
     font-size: 14px;
@@ -84,13 +94,11 @@ a.btn-info, a.btn-info:visited,a.btn-primary, a.btn-primary:visited {
 /*------------------------------------------------*/
 
 .navbar-width {
-  width: 70% ;
   margin-left: auto ;
   margin-right: auto ;
 }
 
 .navbar-right {
-    height: 51px;
 }
 
     .navbar-right .registerGroup,
